@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Jogo De Onde Vem?
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="principal.css" />
+    </head>
+    <body>
+        <div id="Corpo">   
+        
+            <div id="Home"> 
+            
+                <p>Que Bicho é esse ?</p>
+                <input type="text" name="nome" id="Valor">
+                <figure>
+                    <img src="Inicio">
+                </figure>
+                <button onClick="Show()">Iniciar</button>
+                  
+                <br/>
+                <br/>
+                <div id="Animacao">
+                    
+                </div>
+                
+               
+                
+            </div>
+            
+            
+            
+            
+            
+            <div id="Jogo">
+                <div id="Imagem">
+                    
+                    <figure>
+                                            
+                    </figure>
+                    
+                </div>  
+                
+                <div id="Questoes">
+                    <form>
+                        
+                        <p>Vem o formulário</p>
+                    </form>
+                </div>
+                
+                <div id="Next">
+                    <figure >
+                        <img src="next.png" class="next" alt="Proxima Questão" onclick="Next() , Questao()">
+                    </figure>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+         <script>
+                        
+                     function Show(){
+                         var ValNome = document.getElementById("Valor").value
+                            if(ValNome == ""){
+                                alert("Falta o Nome");
+                             }else{
+                           document.getElementById("Home").style.display = "none"; 
+                           
+                   } 
+               }
+               
+               
+               function Next(){
+                       console.log("Next Press");
+               }
+               
+                var numero=0;
+              function Questao(){
+                  
+                  var imagem = ["Cavalo","Boi","Sapao","Kiwi","Lemure"];
+                  
+                  for(questao = 0; questao < 9; questao++){
+                      
+                    document.getElementById("Imagem").innerHTML = imagem;
+                    
+                    console.log(numero);
+                  }
+                   
+                  if(numero >= 3){
+                      window.location.href = "RespScore.jsp";
+                      
+                  }
+                  numero++;
+              }
+               
+               
+               
+               
+                    </script>
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

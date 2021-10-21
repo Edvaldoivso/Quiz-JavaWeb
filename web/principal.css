@@ -1,0 +1,229 @@
+body{
+     background-image: linear-gradient(to top, #245f8c, #0086b8, #00adba, #00d08a, #12eb1b);
+    
+}
+
+
+#Corpo{
+    background-image: linear-gradient(to top, #245f8c, #0086b8, #00adba, #00d08a, #12eb1b);
+    //background-color:#610B0B;   
+    color:#ffffff;
+    //height: 1200px;
+   
+    
+    
+}
+        
+#Home{
+    background-image: linear-gradient(to right bottom, #ae3e3e, #d96437, #f79225, #ffc700, #ffff00);
+    height:1000px;
+    width: 100%;
+    color:#ffffff;
+    display: flex;
+    font-family: 'Chelsea Market', cursive;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;    
+    //display:none;
+}
+
+#Animacao{
+    height:500px;
+    width: 500px;
+   
+    
+    
+    
+    
+}
+
+
+
+#Jogo{
+    
+   background-color: #610b0b;
+    height:300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:10%;
+    
+}
+
+
+#Imagem{
+    
+    background-color:#04B404;
+    height:500px;
+    color:#ffffff;
+    width: 50%;
+    flex-wrap: rap;
+    
+    
+}
+
+ #Questoes{
+    
+    background-color:#04B404;
+    height:500px;
+    color:#ffffff;
+    width: 50%;
+    
+    
+}        
+    
+
+
+#Next{
+    background-color:#04B404;
+    justify-content: center;
+    height:500px;
+    color:#ffffff;
+    width: 10%;
+    
+    
+    
+}
+
+.next{
+    height:200px;
+    width: 100px;
+    margin-top:70%;
+    box-sizing: border-box;
+   
+   
+}
+
+
+#ScoreFinal{
+    
+    justify-content: center;
+    
+}
+
+img{
+   height:400px;
+   whidth:300px;
+  
+    
+    
+}
+
+#titulo{
+    padding-left:25%;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 80px;
+    color:#ffffff;
+    
+}
+
+#Mensagem{
+    
+    font-family: 'Chelsea Market', cursive;
+    font-size: 80px;
+    color:#ffffff;
+    
+}
+
+
+p{
+    font-size:25px;
+    color:#ffffff;
+    
+    
+}
+
+
+input{
+    //display: none;
+}
+
+
+#CorpoServ{
+    
+    
+    background-image: linear-gradient(to top, #245f8c, #008800, #00adba, #00d08a, #12eb1b);
+    //background-color:#04B486;
+    
+    color:#ffffff;
+    height:100%;
+    padding:5%;
+   
+    
+}
+
+
+#Conteiner{
+    
+    height:100%;
+    padding:5%;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    border-bottom:dotted 5px #5050ff;
+    border-top:dotted #245f8c 5px;
+    
+    
+}
+
+#Dados{
+    
+    height:600px;
+    padding:5%;
+    width: 20%;
+    
+}
+
+
+
+
+#Rank{
+    
+    height:600px;
+    padding:5%;
+    width: 20%;
+    
+    
+}
+
+#RankGeral{
+    border:double #245f8c 5px;
+    height:600px;
+    padding:5%;
+    
+}
+
+#imgScore , img{
+
+  font-family: 'Chelsea Market', cursive;
+  border-radius: 50%;
+  text-align: center;
+  font-style: italic;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+
+}
+
+
+p:link { 
+  color:#ff0000;
+  text-decoration:none;
+}
+p:visited {
+  color:#999999;
+  text-decoration:none;
+}
+p:hover {
+  color:#0B610B;
+  text-decoration:none;
+}
+p:active {
+  color:#0B610B;
+  text-decoration:none;
+  
+}
+
+.subScore{
+  font-family: 'Chelsea Market', cursive;
+}
